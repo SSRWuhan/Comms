@@ -5,12 +5,12 @@ import threading
 
 parser = argparse.ArgumentParser()
 
-parser.usage = "TODO"
+parser.usage = "Comms is a terminal based program made for communication between 2 computers."
 
-parser.add_argument("mode", help="TODO", choices=["start", "connect"])
-parser.add_argument("--ip", help="TODO", default="0.0.0.0")
-parser.add_argument("--port", help="TODO", default="1010")
-parser.add_argument("--nickname", help="TODO", default="user")
+parser.add_argument("mode", help="select which option you want to start Comms in. Start initializes a server for the other person to connect to and connect allows you to connect to a existing server. When starting a server the --ip and --port can be left to the default values unless change is wanted. But, they are absolutely needed for when connecting.", choices=["start", "connect"])
+parser.add_argument("--ip", help="Sets the ip address to use. Defaults to 0.0.0.0", default="0.0.0.0")
+parser.add_argument("--port", help="Sets the port to use. Defaults to 1010", default="1010")
+parser.add_argument("--nickname", help="Sets the nickname to use. Defaults to user", default="user")
 
 args = parser.parse_args()
 
