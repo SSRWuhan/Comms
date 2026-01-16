@@ -22,3 +22,6 @@ Initializes the server for the other computer to connect to. Only one computer n
 ### 'connect'
 Connects to a already created Server. The '--ip' and '--port' are required for this mode. The ip and port here represent the the ip address and port to connect to. The '--nickname' deafults to 'user' unless specified.
 
+### For Demo
+
+Start the server in one computer or terminal tab by using 'start' and then connect to it on a another computer or terminal by using 'connect' by following the above commands,
