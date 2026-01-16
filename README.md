@@ -3,9 +3,17 @@ Comms is a terminal based program made for communication between 2 computers.
 
 ## Introduction 
 To start first download the 'comms.exe' from the github release or from the 'dist' folder.Then run this command
+
+###for linux/mac,
+
 ```bash
-python comms.exe -h
+./comms.exe -h
 ```
+for windows,
+```bash
+.\comms.exe -h
+```
+
 This will provide you with a short description of the tool.
 
 ### 'start'
