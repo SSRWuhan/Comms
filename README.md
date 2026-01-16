@@ -4,7 +4,7 @@ Comms is a terminal based program made for communication between 2 computers.
 ## Introduction 
 To start first download the 'comms.exe' from the github release or from the 'dist' folder.Then run this command
 
-###for linux/mac,
+for linux/mac,
 
 ```bash
 ./comms.exe -h
